@@ -2,9 +2,9 @@
 
 
 
-<img src="C:\Users\rodrigo.queiroz\Desktop\react-hooks-use\clone-stripe-menu\imgreadme\menu.png" alt="Alt text" style="zoom:80%;" />
+<img src="imgreadme/menu.png" alt="Alt text" style="zoom:80%;" />
 
-![Alt text](C:\Users\rodrigo.queiroz\Desktop\react-hooks-use\clone-stripe-menu\imgreadme\menu2.png)
+![Alt text](imgreadme/menu2.png)
 
 
 
