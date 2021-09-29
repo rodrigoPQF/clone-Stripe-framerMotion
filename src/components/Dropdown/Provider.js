@@ -5,7 +5,7 @@ export const Context = React.createContext();
 export function DropdownProvider({ children }) {
   const [options, setOptions] = useState([]);
   const [targetId, setTargetId] = useState(null);
-  const [cacheId, setCachedId] = useState(null);
+  const [cachedId, setCachedId] = useState(null);
 
   const registerOption = useCallback(
     ({
@@ -29,7 +29,7 @@ export function DropdownProvider({ children }) {
     [setOptions]
   );
 
-  const updateOptionsProps = useCallback(
+  const updateOptionProps = useCallback(
     (optionId, props) => {
       setOptions((items) =>
         items.map((item) => {
@@ -64,13 +64,13 @@ export function DropdownProvider({ children }) {
     <Context.Provider
       value={{
         registerOption,
-        updateOptionsProps,
+        updateOptionProps,
         getOptionById,
         deleteOptionById,
         options,
         targetId,
         setTargetId,
-        cacheId,
+        cachedId,
         setCachedId,
       }}
     >
